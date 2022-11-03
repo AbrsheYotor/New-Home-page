@@ -1,0 +1,107 @@
+.web{
+    width:700px
+}
+
+.images{ 
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 50px; 
+    width: 100%; 
+    margin-left: 2rem;
+    
+} 
+.right{
+    border: solid 1px white;
+    background-color: black;
+    color: white;
+    width:350px;
+    height:470px;
+    margin-top: 10px;
+    padding-left:10px;
+    padding-right: 10px;
+   
+    }
+    .h1{
+        color: orange;
+        padding: 5px;
+        margin-left: 15px;
+    }
+    
+.left_content{
+    padding-left:10px;
+    padding-right: 10px;
+   
+}
+.left{
+    padding-top: 2px;
+    margin-top: 10px;
+    width: 70%;
+}
+
+.pp{
+    width: 250px;
+    
+}
+.pandb{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width:410px;
+    color: gray;
+}
+.but{
+    width: 150px;
+    height: 40px;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    letter-spacing: 4px;
+}
+.im2{
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 10px; 
+    width: 50%; 
+}
+@media only screen and (max-width: 600px) {
+    .images{ 
+        display: grid; 
+        grid-template-columns: 1fr ; 
+        grid-gap: 50px; 
+        width: 100%; 
+        margin-left: 2rem;
+        
+    } 
+    .im2{
+        display: grid; 
+        grid-template-columns: 1fr ; 
+        grid-gap: 10px; 
+        width: 50%; 
+    }
+    .web{
+        width: 80%;
+        height: 200px;
+        
+    }
+    .pandb{
+        
+        
+        width:240px;
+        color: gray;
+    }
+    .but{
+        margin: 20px;
+    }
+    .right{
+        border: solid 1px white;
+        background-color: black;
+        color: white;
+        width:200px;
+        height:540px;
+        
+        margin-bottom: 50px;
+       
+        }
+  }
+  
+  
